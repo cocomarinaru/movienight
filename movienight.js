@@ -1,11 +1,11 @@
 var express = require("express");
-
 var app = express();
+var PORT = 80
 
-app.get("/movies", function(request, response){
+app.get("/movies", function (request, response) {
     response.send("Welcome to movie night");
 });
 
-app.listen(7777, function(){
-    console.log("Listening on port: "+7777);
+app.listen(PORT, function () {
+    console.log("Listening on port: " + PORT);
 })
