@@ -6,6 +6,6 @@ app.get("/movies", function (request, response) {
     response.send("Welcome to movie night");
 });
 
-app.listen(PORT, function () {
+app.listen(process.env.PORT || PORT, function () {
     console.log("Listening on port: " + PORT);
 })
