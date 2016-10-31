@@ -4,7 +4,7 @@
   "description": "Best movie night app",
   "main": "movienight.js",
   "scripts": {
-    "start": "start movienight.js",
+    "start": "node movienight.js",
     "test": "mocha"
   },
   "author": "",
