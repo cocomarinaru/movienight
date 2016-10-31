@@ -1,0 +1,15 @@
+{
+  "name": "movienight",
+  "version": "1.0.0",
+  "description": "Best movie night app",
+  "main": "movienight.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mocha": "^3.1.2"
+  }
+}
